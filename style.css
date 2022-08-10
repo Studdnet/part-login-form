@@ -87,6 +87,8 @@ body {
 
 .input-field i.showHidePw {
 	right: 0;
+	cursor: pointer;
+	padding: 10px;
 }
 
 .form .checkbox-text {
@@ -110,7 +112,7 @@ body {
 .form .text {
 	color: #333;
 	font-size: 14px;
-
+	text-decoration: none;
 }
 
 .checkbox-text a.text-link {
@@ -157,3 +159,8 @@ body {
 	margin-top: 30px;
 	text-align: center;
 }
+
+.form .login-signup .signup-text {
+	color: #4070f4;
+}
+
